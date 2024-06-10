@@ -1,0 +1,39 @@
+/* padding: 3% 7%; */
+/* max-width: 390px; */
+
+@import url("https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  font-family: "Quicksand", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+  /* margin-bottom: 80px; */
+}
+#hr {
+  width: 100%;
+  height: 1px;
+  color: black;
+  background-color: black;
+}
+#root {
+  max-width: 390px;
+  width: 100%;
+  margin: 0 auto; /* Центрируем по горизонтали */
+}
+.main {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(131, 160, 255); /* Замените этот цвет на желаемый */
+}

@@ -1,0 +1,74 @@
+.myswiper {
+  width: 330px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* padding: 4% 7%; */
+  margin-top: 17px;
+}
+
+.myswiper-slider {
+  width: 330px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: rgb(110, 137, 216); */
+}
+
+.myswiper-slider div {
+  width: 330px;
+  height: 150px;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+.myswiper-slider div > img {
+  width: 330px;
+  height: 150px;
+  border-radius: 20px;
+}
+
+.swiper-slide-active div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.swiper-pagination-bullet,
+.swiper-pagination-bullet-active {
+  background: #fff;
+}
+/* Swiper mini home */
+
+.mySwiper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 8% 3%;
+}
+
+.swipermini__box {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.swipermini__box a > img {
+  width: 38px;
+  height: 38px;
+}
+.swipermini__box > a > p {
+  color: #222222;
+  font-size: 13px;
+  font-weight: 800;
+}

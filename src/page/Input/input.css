@@ -1,0 +1,26 @@
+
+/* Search input */
+.search__input {
+  width: 390px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5% 7%;
+}
+
+.search__input > input {
+  width: 390px;
+  height: 40px;
+  text-indent: 10px;
+  outline: none;
+  border: none;
+  border: solid 1px #222222;
+  border-radius: 8px;
+  color: #222222;
+  font-size: 18px;
+}
+.search__input > ::placeholder {
+  color: #2222226b;
+  font-size: 18px;
+  font-weight: 400;
+}

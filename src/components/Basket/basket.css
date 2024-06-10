@@ -1,0 +1,120 @@
+.basket__container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    gap: 5px;
+    background-color: white;
+}
+.basket__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+}
+.basket__card {
+    width: 390px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 0px 3%;
+    /* gap: 5px; */
+}
+.basket__card > img {
+    width: 100px;
+}
+.basket__card-info  {
+    padding: 1%;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    flex-direction: column;
+    gap: 4px;
+}
+.basket__card-info > p {
+    font-size: 20px;
+        font-weight: 500;
+
+}
+.basket__card-info > span {
+    font-size: 18px;
+    font-weight: 500;
+}
+.savatdaQanchaqolgani {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:4px;
+}
+.savatdaQanchaqolgani > button {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 22px;
+    background-color: #222222;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.checkout__product {
+    width: 390px;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+}
+.checkout__product > form {
+    width: 390px;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    gap: 8px;
+}
+.checkout__product > form > p {
+color: #222222;
+font-size: 25px;
+margin-left: -18px;
+
+}
+.checkout__product > form > label {
+color: #222222;
+font-size: 20px;
+margin-left: -37px;
+}
+.checkout__product > form > input {
+    width: 350px;
+    height: 41px;
+color: #222222;
+font-size: 20px;
+margin-left: -18px;
+border-radius: 8px;
+outline: none;
+border: none;
+border: solid 1px #222222;
+text-indent: 8px;
+
+}
+.total__price > p {
+color: #222222;
+font-size: 20px;
+margin-left: -20px;
+}
+.checkout__product form  > button {
+    width: 350px;
+    height: 41px;
+    background-color: crimson;
+    color: white;
+    font-size: 22px;
+    margin-left: -20px;
+}
+.checkout__product form  > button {
+      background-color: rgb(199, 0, 40);
+  
+}

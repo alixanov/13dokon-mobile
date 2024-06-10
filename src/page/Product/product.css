@@ -1,0 +1,90 @@
+
+/* Proudct home page */
+.home__product-page {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2% 7%;
+}
+.home__product-card {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.home__product-title {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.home__product-name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.home__product-name > a {
+  color: #222222;
+  font-size: 20px;
+  font-weight: 600;
+}
+.home__product-name > img {
+  width: 35px;
+}
+.home__product-navigate a > img {
+  width: 35px;
+  cursor: pointer;
+}
+.home__product-catalog {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 17px;
+}
+.home__product-box {
+  width: 151px;
+  height: 200px;
+  display: flex;
+  align-items: end;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 3% 2%;
+  background-color: white;
+  box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.13), 0 1px 2px 0 rgba(0, 0, 0, 0.11);
+}
+.home__product-box > img {
+  width: 100%;
+  height: 70px;
+}
+.home__product-box > p {
+  color: #222222;
+  font-size: 18px;
+}
+.home__product-box > span {
+  color: #222222;
+  font-size: 18px;
+  font-weight: 600;
+}
+.home__product-basket {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.home__product-basket > h6 {
+  color: rgb(0, 189, 91);
+  font-weight: 300;
+}
+.home__product-basket > h6 > span {
+  color: crimson;
+  font-weight: 700;
+  font-size: 11px;
+}
